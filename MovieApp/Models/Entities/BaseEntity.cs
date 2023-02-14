@@ -7,7 +7,7 @@ namespace MovieApp.Models.Entities
         [Key]
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
+        public DateTime? UpdatedDate { get; set; }
         public bool Isdelete { get; set; }
 
     }

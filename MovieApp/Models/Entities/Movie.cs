@@ -12,8 +12,8 @@
         public string Players { get; set; } // Oyuncular
         public string Duration { get; set; } // Süre or (Dizi)Ortalama Süre
         public bool IsMovie { get; set; }
-        public int Season { get; set; } // Sezon
-        public int Section { get; set; } // Bölüm
+        public string TotalSeason { get; set; } // Toplam Sezon
+        public string TotalSection { get; set; } // Toplam Bölüm
         
         public int PlatformId { get; set; }
         public  virtual Platform  Platform { get; set; }

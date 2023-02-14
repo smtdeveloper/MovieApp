@@ -1,0 +1,22 @@
+﻿@using MovieApp.Models.Entities
+@model List<Movie>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table>
+
+    <tr> # </tr>
+    <tr> Name </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr> @item.Id </tr>
+        <tr> @item.Name </tr>
+
+    }
+
+</table>
+
